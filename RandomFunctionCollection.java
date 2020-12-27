@@ -2,7 +2,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class RandomFunctionCollection {
-    // 获取某段时间内的随机时间
+    //获取某段时间内的随机时间
     public static void main(String[] args){
         System.out.println(randomDate("2020-01-01", "2020-12-31"));
     }
