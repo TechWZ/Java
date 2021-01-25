@@ -2,6 +2,8 @@ import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAdjusters;
 
@@ -51,5 +53,14 @@ public class TimePractice{
         // 本月第1个周一:
         LocalDate firstWeekday = LocalDate.now().with(TemporalAdjusters.firstInMonth(DayOfWeek.MONDAY));
         System.out.println(firstWeekday);
+
+        System.out.println("ZonedDateTime练习----------------------------------------------------");
+        ZonedDateTime zdt = ZonedDateTime.now();
+        ZonedDateTime zdt2 = ZonedDateTime.now(ZoneId.of("America/New_York"));
+        System.out.println(zdt);
+        System.out.println(zdt2);
+        System.out.println("时区转换--------------------------------------------------------------");
+        ZonedDateTime zdtTransform = zdt.withZoneSameInstant(ZoneId.of("America/New_York"));
+        System.out.println(zdtTransform);
     }
 }
