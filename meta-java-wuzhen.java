@@ -59,7 +59,7 @@ class MetaJavaQuestionSheet {
     
     E. 12
 */
-    public static String qn1 = null;
+    public static String qn1 = "C";
 
 
 
@@ -118,7 +118,7 @@ class MetaJavaQuestionSheet {
     
     E. SQL_4
 */
-    public static String qn2 = null;
+    public static String qn2 = "ACDE";
 
 
 
@@ -148,7 +148,7 @@ class MetaJavaQuestionSheet {
     
     D. CNN FakeNews 和FakeNews CNN 都有可能 ; CNN FakeNews
 */
-    public static String qn3 = null;
+    public static String qn3 = "C";
 
 
 
