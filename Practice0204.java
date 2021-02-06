@@ -3,7 +3,7 @@ import java.io.IOException;
 public class Practice0204 {
 
     public static void main(String[] args) {
-        System.out.print(method(10));
+        System.out.print(method(0));
     }
 
     private static Integer method(Integer i){

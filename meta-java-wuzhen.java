@@ -181,7 +181,7 @@ class MetaJavaQuestionSheet {
     
     D. 3
 */
-    public static String qn4 = null;
+    public static String qn4 = "C";
 
 
 
@@ -210,7 +210,7 @@ class MetaJavaQuestionSheet {
     
     D. q.front + q.rear == MaxSize;
 */
-    public static String qn5 = null;
+    public static String qn5 = "D";
 
 
 
